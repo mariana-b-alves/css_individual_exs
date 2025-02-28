@@ -8,12 +8,10 @@
   box-sizing: border-box;
 }
 
-
 body {
   margin: 0;
   font-size: 1.45em;
 }
-
 
 /********BODY STYLES***********/
 
@@ -23,20 +21,16 @@ html, body {
   background-color: #dafffe;
 }
 
-
-
 /********"MOBILE" STYLES***********/
-
 
 /********FLEX-CONTAINER STYLES***********/
 
-.flex-container *{
+.flex-container > *{
   padding: 10px;
   text-align: center;
   color: #e8faf0;
   font-weight: 600;
 }
-
 
 /********HEADER AND FOOTER STYLES***********/
 
@@ -45,17 +39,13 @@ html, body {
   padding: 1em 0;
 }
 
-
 /********MAIN STYLES***********/
-
 .main{
   background-color: rgb(46, 46, 46);
   padding: 2em 0;
 }
 
-
 /********ASIDE STYLES***********/
-
 .aside1{
   background-color: crimson;
 }
@@ -89,7 +79,6 @@ html, body {
     grid-row: span 2;
   }
 
-  
 }
 
 /********"DESKTOP" STYLES***********/
