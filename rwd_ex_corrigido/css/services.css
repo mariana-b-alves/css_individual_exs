@@ -1,0 +1,26 @@
+section.services{
+    display: grid;
+    flex-direction: wrap;
+    justify-content: center;
+
+    gap: 2em;
+}
+
+section.services article{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 1em 4em;
+    text-align: center;
+}
+
+section.services article > p{
+    margin: 0 1em 1em 0;
+}
+
+section.services article h1{
+    height: 0;
+    text-indent: -10000px;
+}
