@@ -18,6 +18,8 @@ nav {
     
     background-color:rgb(107, 179, 136);
     padding: 1em 0;
+
+    
 }
 
 nav article{
@@ -47,21 +49,19 @@ nav article{
 
 .open-btn i {
   font-size: 2em;
+  margin-right: .5em;
+  display: flex;
   flex-direction: row;
+  justify-content: flex-end;
   
 }
 
 /********LOGO STYLES********/
 
-.logo{
-    font-size: 1.65em;
-    font-weight: 400;
-    letter-spacing: .075em;
+.logo img{
+    width: 9em;
 
-    color: white;
-    list-style-type: none;
-
-    margin-left: .65em;
+    margin-left: .5em;
     margin-right: 2em;
     float: left;
 
@@ -74,7 +74,7 @@ nav article{
 
 /********FIGURE STYLES********/
 .banner{
-    background-image: url('../rwd_ex_corrigido/images/landing-page-banner.jpg');
+    background-image: url('../rwd_ex_individual/images/');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -157,28 +157,28 @@ nav article{
   /*FOOTER*/
 
   footer{
+    
     display: flex;
     flex-direction: row;
+    justify-content: center;
+
+    gap: 1em;
     align-items: center;
-    justify-content:center;
     background-color: rgb(1, 17, 7);
     color: white;
     padding: 1em;
     
   }
 
-  footer img{
-    width: 40px;
-    
-    
-    
+  footer img {
+    width: 60px;
   }
 
   footer section{
-    margin-left: 1em;
+    bottom: 0;
+    left: 0;
+    right: 0;
     background-color: rgb(107, 179, 136);
-    padding-top: .7em;
-    
     border-radius: 50%;
     width: 60px;
     height: 60px;
