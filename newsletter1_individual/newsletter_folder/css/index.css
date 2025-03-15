@@ -23,8 +23,11 @@ header, main{
 
     width: 640px;
 
-    padding: 0 1em 1.3em 0;
     display: inline-block;
+}
+
+main {
+    padding: 1.45em;
 }
 
 /******** Header Styles ********/
